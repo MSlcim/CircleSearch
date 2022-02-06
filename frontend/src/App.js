@@ -8,6 +8,7 @@ import {
 import HomePage from './Components/View/Home/HomePage';
 import LoginPage from './Components/View/Login/LoginPage';
 import TopPannel from './Components/TopPannel/TopPannel';
+import RegisterPage from './Components/View/Register/RegisterPage';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
     <Routes>
         <Route exact path="/" element={<HomePage/>}/>
         <Route path="/login" element={<LoginPage/>}/>
+        <Route path="/register" element={<RegisterPage/>}/>
     </Routes>
     </div>
     <div className='right_sidebar'>
