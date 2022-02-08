@@ -30,7 +30,7 @@ export function Alert_PWCheck(props) {
     const isPassed = props.isPassed;
     if (isPassed) {
         return (
-            <p>확인되었습니다.</p>
+            <p>성공적으로 확인되었습니다.</p>
         )
     } else {
         return (

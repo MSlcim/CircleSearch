@@ -20,6 +20,7 @@ function RegisterPage() {
     }
     const onCheckPwHandler = (event) => {
         setuserCheckPW(event.currentTarget.value)
+        console.log(userPW, userCheckPW, userPW==userCheckPW)
     }
     const onEmailHandler = (event) => {
         setuserEmail(event.currentTarget.value)
